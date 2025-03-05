@@ -8,9 +8,9 @@ WIDTH, HEIGHT = 1000, 1000
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Valorant Invaders")
 
-BG = pygame.transform.scale(pygame.image.load("valorant.jpg"), (WIDTH, HEIGHT))
-star_img = pygame.transform.scale(pygame.image.load("Jett.png"), (120, 120))
-player_img = pygame.transform.scale(pygame.image.load("yoru.jpg"), (90, 90))
+BG = pygame.transform.scale(pygame.image.load("Images/valorant.jpg"), (WIDTH, HEIGHT))
+star_img = pygame.transform.scale(pygame.image.load("Images/Jett.png"), (120, 120))
+player_img = pygame.transform.scale(pygame.image.load("Images/yoru.jpg"), (90, 90))
 music = pygame.mixer.music.load('valorantmusic.mp3')
 font = pygame.font.SysFont("comicsans", 50)
 
